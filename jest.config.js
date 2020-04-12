@@ -1,4 +1,5 @@
 module.exports = {
+  watchPathIgnorePatterns: ['/node_modules/'],
   testURL: 'http://localhost:8000',
   preset: 'jest-puppeteer',
   extraSetupFiles: ['./tests/setupTests.js'],
